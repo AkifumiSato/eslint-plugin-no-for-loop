@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "target": "es2020",
+    "noEmit": true,
+    "incremental": true
+  },
+  "exclude": ["node_modules"]
+}

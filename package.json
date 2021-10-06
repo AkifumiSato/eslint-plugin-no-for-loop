@@ -11,7 +11,7 @@
   "author": "佐藤昭文 <akfm.sato@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js",
     "lint": "eslint src",
     "test": "jest"
   },
