@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-for-loop",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An eslint plugin that does not allow for statemetns.",
   "main": "index.js",
   "keywords": [
