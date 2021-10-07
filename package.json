@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-no-for-loop",
   "version": "0.1.0",
-  "description": "An eslint plugin that does not allow for statemetns.",
+  "description": "An eslint plugin that does not allow for statements.",
   "main": "dist/index.js",
   "keywords": [
     "eslint",
@@ -11,7 +11,7 @@
   "author": "佐藤昭文 <akfm.sato@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js",
+    "build": "esbuild src/index.ts --bundle --format=cjs --outfile=dist/index.js",
     "prepare": "yarn build",
     "lint": "eslint src",
     "test": "jest"

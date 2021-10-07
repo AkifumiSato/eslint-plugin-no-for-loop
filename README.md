@@ -1,7 +1,12 @@
 # eslint-plugin-no-for-loop
+An eslint plugin that does not allow for statements.
 
-## todo
-- [ ] build後のファイルをpublishする設定の追加
-- [ ] 実際にpublishして使ってみる
-- [ ] dprint,eslint,huskyの追加
-- [ ] 1.0.0で公開
+## Installation
+```
+npm install --save-dev eslint-plugin-no-loops
+```
+
+## Usage
+`.eslintrc`
+
+TBW
