@@ -17,6 +17,18 @@ export const noForLoop: TSESLint.RuleModule<'replaceForLoopStatement', []> = {
           messageId: 'replaceForLoopStatement',
         })
       },
+      ForOfStatement(node) {
+        context.report({
+          node,
+          messageId: 'replaceForLoopStatement',
+        })
+      },
+      ForInStatement(node) {
+        context.report({
+          node,
+          messageId: 'replaceForLoopStatement',
+        })
+      },
     }
   },
 }
