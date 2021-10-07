@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-for-loop",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An eslint plugin that does not allow for statements.",
   "main": "dist/index.js",
   "keywords": [
