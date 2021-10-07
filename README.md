@@ -9,4 +9,11 @@ npm install --save-dev eslint-plugin-no-loops
 ## Usage
 `.eslintrc`
 
-TBW
+```json
+{
+  "plugins": ["no-for-loop"],
+  "rules": {
+    "no-for-loop/noForLoop": "error"
+  }
+}
+```

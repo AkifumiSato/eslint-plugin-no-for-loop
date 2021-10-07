@@ -1,8 +1,8 @@
 import { noForLoop } from './rules/no-for-loop'
 
-export default {
+module.exports = {
   rules: {
-    'no-for-loop': noForLoop,
+    noForLoop,
   },
   configs: {
     all: {
