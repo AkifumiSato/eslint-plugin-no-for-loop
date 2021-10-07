@@ -12,7 +12,7 @@ const tester = new TSESLint.RuleTester({
 tester.run('noForLoop', noForLoop, {
   valid: [
     {
-      code: '[1,2,3].map((item) => { console.log(item) });'
+      code: '[1,2,3].map((item) => { console.log(item) });',
     },
   ],
   invalid: [

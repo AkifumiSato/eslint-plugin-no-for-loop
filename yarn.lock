@@ -1432,6 +1432,11 @@ domexception@^2.0.1:
   dependencies:
     webidl-conversions "^5.0.0"
 
+dprint@^0.17.3:
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/dprint/-/dprint-0.17.3.tgz#543cdb742f8da02dca0e9cdfb71548dc59cc6016"
+  integrity sha512-X3DzRxjy3LJtPt2UeAIhULmPw+4oT8l/Ck33vYLHC4sDN03ZvRMyFxTwATNHuAya6Ex/lxbbAKCbNozLeyuX7g==
+
 electron-to-chromium@^1.3.857:
   version "1.3.860"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.860.tgz#d612e54ed75fa524c12af8da3ad8121ebfe2802b"
